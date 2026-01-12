@@ -1,5 +1,46 @@
-# Projeto_Food
-Food - Site Informativo | Feito em HTML5 e CSS3 + Js
+# 📌 Food — Larissa Kich
 
-https://www.youtube.com/watch?v=8V3mw1w6h0U
-Ultimo: 18:00
+Projeto web do Food feito para treinar HTML/CSS e JavaScript e interatividade.
+
+---
+
+## 🚀 Tecnologias
+
+* HTML5
+* CSS3
+* JavaScript
+
+---
+
+## ✨ Funcionalidades
+
+* Páginas informativas sobre o Food
+* Navegação entre seções do site
+* Estruturação de conteúdo em layout responsivo
+
+---
+
+## ⚙️ Como executar
+
+```bash
+# Clone o repositório
+git clone https://github.com/kayquemab/Projeto_Food
+
+# Entre na pasta do projeto
+Food
+
+# Abra o arquivo index.html no navegador
+```
+
+---
+
+📌 Observações
+
+* Projeto feito para estudo e prática
+* Desenvolvido com HTML, CSS e JavaScript
+
+---
+
+## 👤 Autor
+
+Criado por **Larissa Kich** | Desenvolvido por **Kayque Miqueias**
