@@ -8,6 +8,7 @@ Projeto web do Food feito para treinar HTML/CSS e JavaScript e interatividade.
 
 * HTML5
 * CSS3
+* JQUERY
 * JavaScript
 
 ---
