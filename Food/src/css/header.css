@@ -7,7 +7,6 @@ header {
     z-index: 3;
 }
 
-/* Navbar principal */
 #navbar {
     width: 100%;
     display: flex;
@@ -15,58 +14,42 @@ header {
     justify-content: space-between;
 }
 
-/* Logo */
 #nav_logo {
     font-size: 24px;
     color: var(--color-primary-6);
 }
 
-/* Lista desktop */
 #nav_list {
     display: flex;
     list-style: none;
     gap: 48px;
 }
 
-/* Links */
 .nav-item a {
     text-decoration: none;
     color: #1d1d1dad;
     font-weight: 600;
-
-    /* ✅ Correção principal */
-    display: inline-block;
-    padding-bottom: 6px;
 }
 
-/* Item ativo */
 .nav-item.active a {
     color: var(--color-neutral-1);
-
-    /* Barra amarela funcionando */
     border-bottom: 3px solid var(--color-primary-4);
 }
 
-/* Botão mobile */
 #mobile_btn {
     display: none;
 }
 
-/* Menu mobile */
 #mobile_menu {
     display: none;
 }
 
-/* Responsivo */
 @media screen and (max-width: 1170px) {
-
-    /* Esconde menu desktop */
     #nav_list,
     #navbar .btn-default {
         display: none;
     }
 
-    /* Mostra botão hamburguer */
     #mobile_btn {
         display: block;
         border: none;
@@ -75,14 +58,12 @@ header {
         cursor: pointer;
     }
 
-    /* Menu mobile aberto */
     #mobile_menu.active {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    /* Lista mobile */
     #mobile_nav_list {
         display: flex;
         flex-direction: column;
@@ -90,9 +71,8 @@ header {
         margin: 12px 0px;
     }
 
-    /* Itens mobile */
     #mobile_nav_list .nav-item {
         list-style: none;
         text-align: center;
-    }
+    } 
 }
