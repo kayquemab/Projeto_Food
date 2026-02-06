@@ -14,11 +14,11 @@
 
 #cta .title {
     font-size: 4rem;
-    color: #1d1d1d;
+    color: var(--color-neutral-1);;
 }
 
 #cta .title span {
-    color: #e9a209;
+    color: var(--color-primary-6);
 }
 
 #cta .description {
@@ -32,7 +32,7 @@
 
 #cta_buttons a {
     text-decoration: none;
-    color: #1d1d1d;
+    color: var(--color-neutral-1);;
 }
 
 #phone_button {
@@ -64,7 +64,7 @@
 }
 
 .shape {
-    background-color: #ffe8b4;
+    background-color: var(--color-primary-2);
     width: 50%;
     height: 100%;
     position: absolute;
@@ -88,8 +88,8 @@
 
     #cta {
         width: 100%;
-        align-items: center;
         text-align: center;
+        align-items: center;
     }
 }
 
@@ -97,4 +97,4 @@
     #phone_button button {
         display: none;
     }
-} 
+}
