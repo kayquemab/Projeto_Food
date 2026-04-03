@@ -35,7 +35,7 @@ Food
 
 ---
 
-📌 Observações
+## 📌 Observações
 
 * Projeto feito para estudo e prática
 * Desenvolvido com HTML, CSS e JavaScript
